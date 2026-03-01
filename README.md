@@ -22,10 +22,6 @@ contract  SampleFallback {
 
 #     Another Fallback
 
-// SPDX-License-Identifier: GPL-3.0
-
-pragma solidity >=0.7.0 <0.9.0; 
-
 contract Fallback {
 
     event Received(address sender, uint amount, string message);
